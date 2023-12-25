@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Thumb ImageWorks</title>
+    <link rel="stylesheet" href="assign7.css">
+    <script  src="assign7.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tom Thumb </h1>
+    </header>
+
+    <main>
+        <form id="thumbForm">
+            <label for="width">Image Width(px):
+            <input type="number" id="width" name="width" value="100">
+             </label>
+            <label for="height">Image Height(px):
+            <input type="number" id="height" name="height" value="80">
+            </label>
+            <label for="colors">Number of Colors:
+            <input type="number" id="colors" name="colors" value="4">
+            </label>
+            <button type="button" onclick="calculateFileSize()">Calculate File Size</button>
+        </form>
+
+        <div id="resultMessage"></div>
+    </main>
+
+    <footer>
+        <p> 2023 Tom Thumb ImageWorks</p>
+    </footer>
+
+</body>
+
+</html>
